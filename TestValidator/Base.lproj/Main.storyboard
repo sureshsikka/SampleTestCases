@@ -32,9 +32,6 @@
                             <constraint firstItem="TRk-AB-PGM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="b5z-SU-PLO"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="butt" destination="TRk-AB-PGM" id="hPt-0X-g6L"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
