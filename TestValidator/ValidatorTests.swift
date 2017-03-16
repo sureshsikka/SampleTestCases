@@ -7,7 +7,7 @@
 //
 
 import XCTest
-
+@testable import TestValidator
 
 class ValidatorTests: XCTestCase {
     

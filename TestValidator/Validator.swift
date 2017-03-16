@@ -13,7 +13,5 @@ public struct Validator{
         let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-Z0-9.-]-\\.[A-Za-z]{2,4}"
         let emailCheck = NSPredicate(format: "SELF MATCHES %@", emailRegEx)
         return emailCheck.evaluate(with: email)
-        
-        
 }
 }

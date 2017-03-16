@@ -49,7 +49,7 @@
 		1829BC311E7A9E58009B40AE /* TestValidatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestValidatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1829BC351E7A9E58009B40AE /* TestValidatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestValidatorUITests.swift; sourceTree = "<group>"; };
 		1829BC371E7A9E58009B40AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1829BC491E7A9E9E009B40AE /* ValidatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidatorTests.swift; sourceTree = "<group>"; };
+		1829BC491E7A9E9E009B40AE /* ValidatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ValidatorTests.swift; path = ../TestValidator/ValidatorTests.swift; sourceTree = "<group>"; };
 		1829BC4B1E7A9F1B009B40AE /* Validator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,7 +104,6 @@
 				1829BC151E7A9E58009B40AE /* AppDelegate.swift */,
 				1829BC171E7A9E58009B40AE /* ViewController.swift */,
 				1829BC4B1E7A9F1B009B40AE /* Validator.swift */,
-				1829BC491E7A9E9E009B40AE /* ValidatorTests.swift */,
 				1829BC191E7A9E58009B40AE /* Main.storyboard */,
 				1829BC1C1E7A9E58009B40AE /* Assets.xcassets */,
 				1829BC1E1E7A9E58009B40AE /* LaunchScreen.storyboard */,
@@ -117,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				1829BC2A1E7A9E58009B40AE /* TestValidatorTests.swift */,
+				1829BC491E7A9E9E009B40AE /* ValidatorTests.swift */,
 				1829BC2C1E7A9E58009B40AE /* Info.plist */,
 			);
 			path = TestValidatorTests;
