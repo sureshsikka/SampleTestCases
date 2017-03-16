@@ -12,6 +12,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let id = Int64.max
+        let predicate = NSPredicate(format: "id == %@", id as NSNumber)
+        print(predicate)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
