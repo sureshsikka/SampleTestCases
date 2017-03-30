@@ -24,6 +24,18 @@ class TestValidatorTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        let validEmails = ["krism9999@gmail.com","sikka@gmail.com","suresh.naidu@gmail.com"]
+        let inValidEmails = ["123!@com","abcdgh","123456"]
+        
+        for validEmail in validEmails{
+            XCTAssertEqual(Validator.isEmailValid(email: validEmail), true)
+        }
+        
+        for inValidEmail in inValidEmails{
+            XCTAssertEqual(Validator.isEmailValid(email: inValidEmail), false)
+        }
+
     }
     
     func testPerformanceExample() {

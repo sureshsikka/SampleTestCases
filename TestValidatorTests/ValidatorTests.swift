@@ -17,17 +17,7 @@ class ValidatorTests: XCTestCase {
     }
     
     func testIsEmailValid(){
-        let validEmails = ["krism9999@gmail.com","sikka@gmail.com","suresh.naidu@gmail.com"]
-        let inValidEmails = ["123!@com","abcdgh","123456"]
-        
-        for validEmail in validEmails{
-            XCTAssertEqual(Validator.isEmailValid(email: validEmail), true)
-        }
-        
-        for inValidEmail in inValidEmails{
-            XCTAssertEqual(Validator.isEmailValid(email: inValidEmail), false)
-        }
-    }
+           }
     
     
 }
